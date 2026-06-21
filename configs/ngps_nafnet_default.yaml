@@ -1,0 +1,23 @@
+ngps:
+  patch_size: 7
+  search_window: 15
+  topk: 4
+  mask_threshold: 0.05
+  bilateral_d: 5
+  bilateral_sigma_color: 35.0
+  bilateral_sigma_space: 50.0
+  median_kernel: 5
+  rc_weight: 0.5
+  nafnet_width: 32
+  nafnet_enc_blocks: [2, 2, 4, 8]
+  nafnet_middle_blocks: 8
+  nafnet_dec_blocks: [2, 2, 2, 2]
+
+training:
+  epochs: 10
+  batch_size: 4
+  crop_size: 256
+  lr: 0.0002
+  weight_decay: 0.00001
+  num_workers: 0
+  seed: 42

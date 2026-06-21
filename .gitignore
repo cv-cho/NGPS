@@ -1,0 +1,54 @@
+# Data, model outputs, and private artifacts
+data/
+datasets/raw/
+datasets/processed/
+runs/
+outputs/
+results/
+checkpoints/
+logs/
+wandb/
+.cache/
+
+# Medical / large array formats
+*.dcm
+*.ima
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nrrd
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated result tables and figures
+*.csv
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Keep documentation assets if added intentionally
+!docs/assets/*.png
+!docs/assets/*.jpg
+!docs/assets/*.pdf
+
+# Python / IDE / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
