@@ -29,8 +29,8 @@ scripts/                  Train, infer, evaluate, and demo-data scripts
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/cv-cho/NGPS.git
+cd NGPS
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -157,25 +157,15 @@ optionally writes per-slice metrics to CSV.
 
 See [docs/METHOD_MAPPING.md](docs/METHOD_MAPPING.md).
 
-## Notes
-
-- Store data, checkpoints, and generated outputs outside Git tracking.
-- Keep split manifests and preprocessing details with your experiment logs.
-- The synthetic demo is for installation and pipeline checks, not for benchmark
-  claims.
-
 ## Citation
 
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{ngps2026,
+@inproceedings{"",
   title     = {NGPS: Structure-Preserving Self-Supervised Denoising via Neighbor-Guided Patch Sampling},
-  author    = {Anonymous / update after camera-ready},
-  booktitle = {European Conference on Computer Vision (ECCV)},
+  author    = {""},
+  booktitle = {""},
   year      = {2026}
 }
 ```
-
-Please update the BibTeX entry with the final camera-ready author and venue
-metadata.
